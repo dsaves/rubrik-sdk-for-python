@@ -5,10 +5,10 @@ rubrik = rubrik_cdm.Connect()
 vm_name = "python-sdk-demo"
 object_type = "vmware"
 
-#VMware Snapshot
+# VMware Snapshot
 snapshot = rubrik.on_demand_snapshot(vm_name, object_type)
 
-# Physical Host Snapst
+# Physical Host Snapshot
 physical_host_name = "python-sdk-physical-demo"
 object_type = "physical_host"
 sla = "Gold"
